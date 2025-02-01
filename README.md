@@ -52,7 +52,7 @@ Feel free to modify the **style.css** file to change the appearance of the dicti
 
 <img width="1440" alt="Screenshot 2025-02-01 at 2 37 34 PM" src="https://github.com/user-attachments/assets/b50394b6-9025-4b19-b35d-3845b4de5810" />
 
-##Live Demo 
+## Live Demo 
 
 [DEMO](https://droll-dictionary.netlify.app/)
 
