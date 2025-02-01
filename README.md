@@ -34,7 +34,7 @@ To run this project locally on your computer:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/droll-dictionary.git
+   git clone https://github.com/devvrat-hans/droll-dictionary.git
    ```
 
 2. **Navigate to the project folder**:
