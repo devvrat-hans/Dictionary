@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="style.css" />
+        <title>Droll Dictionary</title>
+    </head>
+    <body>
+        <nav class = "navbar">
+            <div class="logo">
+                <h1><a href="index.html">Droll Dictionary</a></h1>
+            </div> 
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+
+        </nav>
+        <audio id="sound"></audio>
+        <div class="container">
+            <div class="search-box">
+                <input
+                    type="text"
+                    placeholder="Type the word here.."
+                    id="inp-word"
+                />
+                <button id="search-btn">Search</button>
+            </div>
+            <div class="result" id="result">
+            </div>
+        </div>
+        <div id="loading-indicator" class="loading-indicator" style="display: none;">
+            Loading...
+        </div>
+        <footer>
+            <p>&copy; 2025 Droll Dictionary | All Rights Reserved</p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
